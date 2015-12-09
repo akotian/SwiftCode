@@ -13,6 +13,8 @@
 		33F304FC1C18BF2900B25BDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F304FB1C18BF2900B25BDB /* Images.xcassets */; };
 		33F304FF1C18BF2900B25BDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F304FD1C18BF2900B25BDB /* LaunchScreen.xib */; };
 		33F3050B1C18BF2900B25BDB /* TestQuizAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F3050A1C18BF2900B25BDB /* TestQuizAppTests.swift */; };
+		33F305151C18D0F700B25BDB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F305141C18D0F700B25BDB /* SecondViewController.swift */; };
+		33F305171C18E71000B25BDB /* Zimbio.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F305161C18E71000B25BDB /* Zimbio.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		33F305041C18BF2900B25BDB /* TestQuizAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestQuizAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F305091C18BF2900B25BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33F3050A1C18BF2900B25BDB /* TestQuizAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestQuizAppTests.swift; sourceTree = "<group>"; };
+		33F305141C18D0F700B25BDB /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		33F305161C18E71000B25BDB /* Zimbio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zimbio.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				33F304F41C18BF2900B25BDB /* AppDelegate.swift */,
 				33F304F61C18BF2900B25BDB /* ViewController.swift */,
+				33F305141C18D0F700B25BDB /* SecondViewController.swift */,
 				33F304F81C18BF2900B25BDB /* Main.storyboard */,
 				33F304FB1C18BF2900B25BDB /* Images.xcassets */,
 				33F304FD1C18BF2900B25BDB /* LaunchScreen.xib */,
@@ -90,6 +95,7 @@
 		33F304F21C18BF2900B25BDB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				33F305161C18E71000B25BDB /* Zimbio.png */,
 				33F304F31C18BF2900B25BDB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +201,7 @@
 				33F304FA1C18BF2900B25BDB /* Main.storyboard in Resources */,
 				33F304FF1C18BF2900B25BDB /* LaunchScreen.xib in Resources */,
 				33F304FC1C18BF2900B25BDB /* Images.xcassets in Resources */,
+				33F305171C18E71000B25BDB /* Zimbio.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F305151C18D0F700B25BDB /* SecondViewController.swift in Sources */,
 				33F304F71C18BF2900B25BDB /* ViewController.swift in Sources */,
 				33F304F51C18BF2900B25BDB /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +417,7 @@
 				33F305101C18BF2900B25BDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33F305111C18BF2900B25BDB /* Build configuration list for PBXNativeTarget "TestQuizAppTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				33F305131C18BF2900B25BDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
